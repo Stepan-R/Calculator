@@ -11,15 +11,15 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: hsl(0, 0%, 15%);
   border-radius: 15px;
-  max-width: 30rem;
+  max-width: 15rem;
   overflow: hidden;
-  max-height: 45rem;
+  max-height: 30rem;
 }
 
 #display {
   width: 100%;
-  padding: 20px;
-  font-size: 5rem;
+  padding: 1rem;
+  font-size: 4rem;
   text-align: left;
   border: none;
   background-color: hsl(0, 0%, 20%);
@@ -29,18 +29,18 @@ body {
 #keys {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: 10px;
-  padding: 25px;
+  gap: 0.1rem;
+  padding: 0.2rem;
 }
 
 button {
-  width: 100px;
-  height: 100px;
+  width: 3rem;
+  height: 3rem;
   border-radius: 50px;
   border: none;
   background-color: hsl(0, 0%, 30%);
   color: white;
-  font-size: 3rem;
+  font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
 }
